@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Header from '../../components/header'
+import SubHeader from '../../components/subHeader'
 
 export default function Home() {
   return (
     <div>
-      <Header/>
+      <SubHeader/>
       <h1>こんにちは！　竹内颯汰です！</h1>
       <div>
         <Link href={'./profile'}>

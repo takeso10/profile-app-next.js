@@ -1,9 +1,9 @@
-import Header from "../../../components/header";
+import SubHeader from "../../../components/subHeader";
 
 export default function Products (){
     return(
         <div>
-            <Header></Header>
+            <SubHeader></SubHeader>
         </div>
     )
 }
