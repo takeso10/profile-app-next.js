@@ -1,29 +1,39 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import SubHeader from '../../components/subHeader'
+import Link from "next/link";
+import Header from "../../components/Header";
+import styles from "../../styles/home.module.scss";
+
 
 export default function Home() {
   return (
     <div>
-      <SubHeader/>
-      <h1>こんにちは！　竹内颯汰です！</h1>
-      <div>
-        <Link href={'./profile'}>
-          <h2>自己紹介</h2>
-        </Link>
-        <Link href={'./sns'}>
-          <h2>SNS</h2>
-        </Link>
-        <Link href={'./job'}>
-          <h2>仕事</h2>
-        </Link>
-        <Link href={'./private'}>
-          <h2>プライベート</h2>
-        </Link>
-        <Link href={'./products'}>
-          <h2>成果物</h2>
-        </Link>
+      <Header />
+      <div className={styles.main}>
+        <div className={styles.bgimg}>
+          <h1>Tekeuchi Sota</h1>
+        </div>
+        <div className={styles.category}>
+          <Link href={"./profile"} className={styles.box}>
+            <div>
+              <h3>PROFILE</h3>
+            </div>
+          </Link>
+          <Link href={"./job"} className={styles.box}>
+            <div>
+              <h3>WORKS</h3>
+            </div>
+          </Link>
+          <Link href={"./private"} className={styles.box}>
+            <div>
+              <h3>PRIVATE</h3>
+            </div>
+          </Link>
+          <Link href={"./products"} className={styles.box}>
+            <div>
+              <h3>PRODUCTS</h3>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,9 +1,9 @@
-import SubHeader from "../../../components/subHeader";
+import Header from "../../../components/Header";
 
 export default function Private (){
     return(
         <div>
-            <SubHeader></SubHeader>
+            <Header></Header>
         </div>
     )
 }

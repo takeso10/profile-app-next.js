@@ -1,0 +1,32 @@
+.main{
+    font-family:cursive;
+    .bgimg{
+        height:800px;
+        background-image: url('../public/niseko.jpg');
+        background-size:cover;
+        background-repeat:no-repeat;
+        opacity:0.7;
+        h1{
+            font-family:cursive;
+            color:white;
+            text-align: center;
+            padding-top:40px;
+            margin-top:0px;
+            font-size:70px;
+            opacity:1.0;
+        }
+    }
+    .category{
+        font-size:30px;
+        display:flex;
+        justify-content: center;
+        height:200px;
+        margin:0px 100px;
+        .box{
+            width:300px;
+            height:100px;
+            text-align: center;
+        }
+    }
+
+}
