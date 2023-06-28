@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+.main{
+    font-family: 'Noto Sans JP', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .github_account{
+        margin-bottom:40px;
+        .github_link{
+            margin-right:30px;
+        }
+
+    }
+    .products{
+        .product{
+            border-bottom:1px solid gray;
+            margin:auto;
+            padding-bottom:20px;
+            h2{
+                text-align: center;
+            }
+            .link{
+                text-align: center;
+                margin-bottom:20px;
+            }
+        }
+    }
+}
