@@ -33,7 +33,9 @@ export default function Header() {
             className={styles.logo}
           ></Image>
         </Link>
-        <Link href={"https://www.instagram.com/sota_108/"}>
+        <Link href={"https://www.instagram.com/sota_108/"}
+          className={styles.insta_link}
+        >
           <Image
             src="/Instagram_logo_2022.svg.webp"
             alt="insta logo"
@@ -42,6 +44,13 @@ export default function Header() {
             className={styles.logo}
           ></Image>
         </Link>
+        <label className={styles.tag}>Menu</label>
+        <ul className={styles.menus}>
+            <li><Link href="./profile" >PROFILE</Link></li>
+            <li><Link href="./job" >WORKS</Link></li>
+            <li><Link href="./private" >PRIVATE</Link></li>
+            <li><Link href="./products" >PRODUCTS</Link></li>
+        </ul>
       </div>
     </div>
   );
