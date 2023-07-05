@@ -14,6 +14,11 @@ export default function Profile() {
             alt="profile Image"
             width={400}
             height={300}
+            style={{
+              width:'100%',
+              height:'auto'
+            }}
+            className={styles.image}
           />
         </div>
         <div className={styles.right}>

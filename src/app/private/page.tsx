@@ -14,7 +14,11 @@ export default function Private() {
              src='/nozawa.jpg'
             alt="nozawa img"
             width={300}
-            height={400}>
+            height={400}
+            style={{
+              width:'100%',
+              height:'auto'
+            }}>
           </Image>
         </div>
         <div className={styles.right}>

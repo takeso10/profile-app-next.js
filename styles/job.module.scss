@@ -13,3 +13,23 @@
         padding-top:100px;
     }
 }
+
+@media screen and (max-width:600px){
+    .main{
+        margin-top:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .left{
+            margin:0px 20px;
+            h2{
+                font-size:20px;
+            }
+        }
+        .right{
+            padding-top:30px;
+            font-size:15px;
+        }
+    }
+}

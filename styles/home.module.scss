@@ -31,3 +31,43 @@
     }
 
 }
+
+@media screen and (max-width:1200px) {
+    .main{
+        .bgimg{
+            background-size: contain;
+            height:500px;
+            h1{
+                font-size:50px;
+                padding-top:20px;
+            }
+        }
+        .category{
+            font-size:30px;
+            div{
+                margin-right:20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main{
+        .bgimg{
+            background-size: contain;
+            height:250px;
+            h1{
+                font-size:30px;
+                padding-top:20px;
+            }
+            
+        }
+        .category{
+            font-size:15px;
+            div{
+                margin-right:10px;
+            }
+        }
+    }
+    
+}
